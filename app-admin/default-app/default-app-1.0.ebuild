@@ -9,7 +9,7 @@ inherit eutils #Object-oriented packaging, inherit classes with functions that w
 DESCRIPTION="Example X"
 HOMEPAGE="http://gentoo.org/"
 SRC_URI="http://whatever-you-want-to-download-from1/default-app.tar.gz
-	http://whatever-you-want-to-download-from2/distro/creation.tar.gz"
+	http://whatever-you-want-to-download-from2/default-app.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0" #How many times do you want this package to exist/to be installed, to coexist in different versions
