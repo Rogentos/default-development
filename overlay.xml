@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>default-development</name>
+    <description>Gentoo Deployment Chroot-only Development Kit</description>
+    <homepage>https://github.com/Rogentos/default-development</homepage>
+    <owner type="project">
+      <email>stefan.cristian at rogentos.ro</email>
+      <name>Steven Cristian</name>
+    </owner>
+    <source type="git">git://github.com/Rogentos/default-development.git</source>
+    <feed>https://github.com/Rogentos/default-development/commits/master.atom</feed>
+  </repo>
+</repositories>

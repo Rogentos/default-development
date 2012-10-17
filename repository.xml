@@ -1,0 +1,19 @@
+<repositories xmlns="" version="1.0">
+<repo quality="experimental" status="unofficial">
+<name>rogento</name>
+<description>Gentoo Deployment CHROOT-only Development Kit</description>
+<homepage>
+https://github.com/Rogentos/
+</homepage>
+<owner type="project">
+<email>stefan.cristian@best.eu.org</email>
+<name>Steven Cristian</name>
+</owner>
+<source type="git">git://github.com/Rogentos/default-development.git</source>
+<source type="git">
+https://BlackNoxis@github.com/Rogentos/default-development.git
+</source>
+<feed>
+</feed>
+</repo>
+</repositories>
