@@ -10,10 +10,16 @@ Details about creating or editing ebuilds in http://devmanual.gentoo.org/ebuild-
 
 Naturally, this is a Sabayon base system (that means lots of packages were built by the Sabayon team via Portage and packaged via Entropy package manager),
 so it automatically comes with a Entropy installed with full development repositories + the overlays from which the packages were built with Portage.
+
 Documentation for Entropy Binary PM: http://wiki.sabayon.org/index.php?title=En:Entropy
+
 Also, the procedure in which packages are created and handled by Entropy is called mixing, and the documentation: http://wiki.sabayon.org/index.php?title=HOWTO:_Safely_mix_Entropy_and_Portage
 
 And of course, the Gentoo Handbook http://www.gentoo.org/doc/en/handbook/
+
+If you are a pure-Gentoo user/developer and already know the system, you can safely ignore Entropy packages and use only Portage.
+
+There are already some default settings for packages.mask packages.unmask packages.keywords, you can change them freely as your knowledge permits to.
 
 To install it as an overlay in a Gentoo planet distro, use the command: 
 
