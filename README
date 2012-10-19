@@ -4,6 +4,12 @@ gentoo-chroot-development
 ISO chroot-only for Gentoo Ebuild and Utilities Development.
 Overlay of ebuilds for the necessary packages to be added in the ISO.
 
+Full details about development in Gentoo in http://devmanual.gentoo.org/
+
+Details about creating or editing ebuilds in http://devmanual.gentoo.org/ebuild-writing/index.html
+
+And of course, the Gentoo Handbook http://www.gentoo.org/doc/en/handbook/
+
 To install it as an overlay in a Gentoo planet distro, use the command: 
 
 layman -f -a default-development -o https://raw.github.com/Rogentos/default-development/master/overlay.xml
