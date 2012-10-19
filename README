@@ -4,6 +4,8 @@ gentoo-chroot-development
 ISO chroot-only for Gentoo Ebuild and Utilities Development.
 Overlay of ebuilds for the necessary packages to be added in the ISO.
 
+Download from: http://pkg.rogentos.ro/~rogentos/iso or http://pkg2.rogentos.ro/~noxis/iso
+
 Full details about development in Gentoo in http://devmanual.gentoo.org/
 
 Details about creating or editing ebuilds in http://devmanual.gentoo.org/ebuild-writing/index.html
