@@ -28,5 +28,6 @@ src_prepare() { #unpacked files in the sandbox can be easily modified before all
 }
 
 src_install() { #while compilation
+	insinto /usr/share/icons/scalable/apps/ || die # Make the function die if it fails
 	doins "${S}"/"${PN}"/argent.png || die # Copy the file into the directory where function insinto was used
 }
