@@ -13,7 +13,7 @@ SRC_URI="http://pkg.rogentos.ro/~rogentos/distro/app-admin/"${PN}"/"${PN}".tar.g
 LICENSE="GPL-2"
 SLOT="0" #How many times do you want this package to exist/to be installed, to coexist in different versions
 KEYWORDS="~* ~amd64 ~x86" #Every architecture you like
-IUSE="config1 -config2 config3" #Configure flags, also known as ./configure --features --enable/disable features to be used
+IUSE="" #Configure flags, also known as ./configure --features --enable/disable features to be used
 
 RDEPEND="" #runtime deps
 DEPEND="" #build deps
